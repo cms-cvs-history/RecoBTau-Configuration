@@ -1,0 +1,17 @@
+#Full Event content 
+block RecoBTauFEVT = {
+  untracked vstring outputCommands = {
+  }		
+}	
+
+#RECO content
+block RecoBTauRECO = {
+  untracked vstring outputCommands = {
+  }		
+}	
+
+#AOD content
+block RecoBTauAOD = {
+  untracked vstring outputCommands = {
+  }		
+}	
