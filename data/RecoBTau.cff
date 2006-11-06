@@ -1,6 +1,3 @@
-    module jetTracksAssociator = JetTracksAssociator {
-      InputTag tracks = ctfWithMaterialTracks
-      InputTag jets   = iterativeCone5CaloJets
-      double coneSize = 0.5
-    }
+include "RecoBTau/JetTracksAssociator/data/jetTracksAssociator.cff"
 
+sequence recobtau = {jetTracksAssociator}

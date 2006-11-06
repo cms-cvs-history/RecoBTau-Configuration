@@ -1,17 +1,20 @@
 #Full Event content 
 block RecoBTauFEVT = {
-  untracked vstring outputCommands = {
-  }		
+    untracked vstring outputCommands = {
+	"keep *_jetTracksAssociator_*_*"
+    }		
 }	
 
 #RECO content
 block RecoBTauRECO = {
   untracked vstring outputCommands = {
+	"keep *_jetTracksAssociator_*_*"
   }		
 }	
 
 #AOD content
 block RecoBTauAOD = {
   untracked vstring outputCommands = {
+	"keep *_jetTracksAssociator_*_*"
   }		
 }	
