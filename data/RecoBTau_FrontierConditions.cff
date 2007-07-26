@@ -1,1 +1,2 @@
 include "RecoBTau/JetTagComputer/data/MVAJetTagsFrontierConditions.cfi"
+include "RecoTauTag/CombinedTauTag/data/CombinedTauTagFrontierConditions.cfi"
