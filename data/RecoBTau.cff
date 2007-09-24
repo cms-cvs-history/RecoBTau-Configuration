@@ -1,2 +1,4 @@
- sequence recobtau = { }  # we now use the associator from RecoJet package 
+
+ include "RecoJets/JetAssociationProducers/data/ic5JetTracksAssociatorAtVertex.cfi"
+ sequence recobtau = {ic5JetTracksAssociatorAtVertex }  # we now use the associator from RecoJet package 
 
