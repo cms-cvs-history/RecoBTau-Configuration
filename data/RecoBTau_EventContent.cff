@@ -1,20 +1,17 @@
 #Full Event content 
 block RecoBTauFEVT = {
     untracked vstring outputCommands = {
-	"keep *_ic5JetTracksAssociatorAtVertex_*_*"
     }		
 }	
 
 #RECO content
 block RecoBTauRECO = {
   untracked vstring outputCommands = {
-	"keep *_ic5JetTracksAssociatorAtVertex_*_*"
   }		
 }	
 
 #AOD content
 block RecoBTauAOD = {
   untracked vstring outputCommands = {
-	"keep *_ic5JetTracksAssociatorAtVertex_*_*"
   }		
 }	
