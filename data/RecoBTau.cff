@@ -1,3 +1,2 @@
-include "RecoBTau/JetTracksAssociator/data/jetTracksAssociator.cff"
+ sequence recobtau = { }  # we now use the associator from RecoJet package 
 
-sequence recobtau = {jetTracksAssociator}
