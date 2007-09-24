@@ -1,3 +1,4 @@
-include "RecoBTau/JetTracksAssociator/data/jetTracksAssociator.cff"
 
-sequence recobtau = {jetTracksAssociator}
+ include "RecoJets/JetAssociationProducers/data/ic5JetTracksAssociatorAtVertex.cfi"
+ sequence recobtau = {ic5JetTracksAssociatorAtVertex }  # we now use the associator from RecoJet package 
+
