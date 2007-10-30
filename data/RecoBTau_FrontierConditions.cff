@@ -1,2 +1,4 @@
 include "RecoBTau/JetTagComputer/data/MVAJetTagsFrontierConditions.cfi"
+replace BTauMVAJetTagComputerRecord.connect ="frontier://FrontierDev/CMS_COND_BTAU"				 
+
 #include "RecoTauTag/CombinedTauTag/data/CombinedTauTagFrontierConditions.cfi"
