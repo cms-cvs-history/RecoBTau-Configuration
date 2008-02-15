@@ -1,2 +1,4 @@
-include "RecoBTau/JetTagComputer/data/MVAJetTagsFrontierConditions.cfi"
+# note: we are inserting fake conditions for btag here (only one working)
+include "RecoBTau/JetTagComputer/data/MVAJetTagsFakeConditions.cfi"
 include "RecoTauTag/CombinedTauTag/data/CombinedTauTagFrontierConditions.cfi"
+include "RecoBTag/ImpactParameter/data/trackProbabilityFakeConditions.cfi"
